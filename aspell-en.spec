@@ -28,7 +28,7 @@ BuildRequires:	make
 BuildRequires:	aspell >= %{aspell_ver}
 Requires:	aspell >= %{aspell_ver}
 
-# Mandrake Stuff
+# Mandriva Stuff
 Requires:      locales-%{languagecode}
 Provides:      aspell-dictionary
 Obsoletes:	   aspell-en_CA aspell-en_GB
