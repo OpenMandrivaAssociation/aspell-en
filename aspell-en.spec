@@ -13,7 +13,7 @@
 Summary:	English files for aspell
 Name:		aspell-%{languagecode}
 Version:	7.1.0
-Release:	1
+Release:	2
 Group:		System/Internationalization
 License:	SCOWL
 Url:		http://aspell.sourceforge.net/
