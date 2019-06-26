@@ -12,7 +12,7 @@
 
 Summary:	English files for aspell
 Name:		aspell-%{languagecode}
-Version:	7.1.0
+Version:	2018.04.16
 Release:	10
 Group:		System/Internationalization
 License:	SCOWL
