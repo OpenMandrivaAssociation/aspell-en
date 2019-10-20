@@ -12,8 +12,8 @@
 
 Summary:	English files for aspell
 Name:		aspell-%{languagecode}
-Version:	2018.04.16
-Release:	10
+Version:	2019.10.06
+Release:	1
 Group:		System/Internationalization
 License:	SCOWL
 Url:		http://aspell.sourceforge.net/
