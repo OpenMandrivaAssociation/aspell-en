@@ -1,7 +1,7 @@
 %define _enable_debug_packages %{nil}
 %define debug_package          %{nil}
 
-%define src_ver 7.1-0
+%define src_ver %{version}-0
 %define fname aspell6-%{languagecode}
 %define aspell_ver 0.60
 %define languagelocal english
