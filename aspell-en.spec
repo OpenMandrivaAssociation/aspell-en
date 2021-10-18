@@ -1,5 +1,5 @@
-%define _enable_debug_packages %{nil}
-%define debug_package          %{nil}
+# Work around incomplete debug packages
+%global _empty_manifest_terminate_build 0
 
 %define src_ver %{version}-0
 %define fname aspell6-%{languagecode}
@@ -13,7 +13,7 @@
 Summary:	English files for aspell
 Name:		aspell-%{languagecode}
 Version:	2020.12.07
-Release:	1
+Release:	2
 Group:		System/Internationalization
 License:	SCOWL
 Url:		http://aspell.sourceforge.net/
@@ -42,14 +42,13 @@ A English dictionary for use with aspell, a spelling checker.
 # don't use %%configure macro
 ./configure
 
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 chmod 644 README Copyright
 
 %files
 %doc README Copyright
 %{_libdir}/aspell-%{aspell_ver}/*
-
