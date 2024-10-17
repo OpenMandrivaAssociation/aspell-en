@@ -16,7 +16,7 @@ Version:	2020.12.07
 Release:	3
 Group:		System/Internationalization
 License:	SCOWL
-Url:		http://aspell.sourceforge.net/
+Url:		https://aspell.sourceforge.net/
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%fname-%{src_ver}.tar.bz2
 
 BuildRequires:	aspell >= %{aspell_ver}
