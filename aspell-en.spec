@@ -12,17 +12,13 @@
 
 Summary:	English files for aspell
 Name:		aspell-%{languagecode}
-Version:	2020.12.07
-Release:	3
+Version:	2026.02.25
+Release:	1
 Group:		System/Internationalization
 License:	SCOWL
 Url:		https://aspell.sourceforge.net/
-Source0:	http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%fname-%{src_ver}.tar.bz2
+Source0:	https://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%fname-%{src_ver}.tar.bz2
 
-BuildRequires:	autoconf
-BuildRequires:	automake
-BuildRequires:	libtool-base
-BuildRequires:	slibtool
 BuildRequires:	make
 BuildRequires:	aspell >= %{aspell_ver}
 Requires:	aspell >= %{aspell_ver}
